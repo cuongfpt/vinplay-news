@@ -1,6 +1,34 @@
 @font-face {
-    font-family: UTM_Avo;
-    src: url('../fonts/UTM Avo_0.ttf');
+    font-family: 'utm_avoregular';
+    src: url('../fonts/utm-avo.eot');
+    src: url('../fonts/utm-avo.woff') format('woff'), url('../fonts/utm-avo.ttf') format('truetype'), url('../fonts/utm-avo.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'utm_avobold';
+    src: url('../fonts/utm-avobold.eot');
+    src: url('../fonts/utm-avobold.woff') format('woff'), url('../fonts/utm-avobold.ttf') format('truetype'), url('../fonts/utm-avobold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'utm_avoitalic';
+    src: url('../fonts/utm-avoitalic.eot');
+    src: url('../fonts/utm-avoitalic.woff') format('woff'), url('../fonts/utm-avoitalic.ttf') format('truetype'), url('../fonts/utm-avoitalic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'utm_avobolditalic';
+    src: url('../fonts/utm-avobold-italic.eot');
+    src: url('../fonts/utm-avobold-italic.woff') format('woff'), url('../fonts/utm-avobold-italic.ttf') format('truetype'), url('../fonts/utm-avobold-italic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
@@ -10,7 +38,7 @@
 
 body {
     background: #292562;
-    font-family: UTM_Avo, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: utm_avoregular, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 13px;
 }
 
@@ -138,7 +166,7 @@ html {
 
 .nav_content ul li {
     float: left;
-    padding-right: 62px;
+    padding-right: 38px;
 }
 
 .nav_content ul li:first-child {
@@ -155,8 +183,8 @@ html {
 }
 
 .nav_content ul li a {
-    font-family: UTM_Avo;
-    font-size: 12px;
+    font-family: utm_avobold;
+    font-size: 11pt;
     font-weight: bold;
     line-height: 46px;
     text-transform: uppercase;
@@ -221,6 +249,7 @@ html {
 .title_new{
     font-size: 15px;
     font-weight: bold;
+    font-family: utm_avobold;
     float: left;
     text-align: left;
     width: 100%;
@@ -229,12 +258,12 @@ html {
 .date{
     color: #EC008B;
     font-size: 12px;
-    margin-top: 15px;
+    margin-top: 10px;
     float: left;
     text-align: left;
 }
 .description{
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 12px;
     float: left;
     text-align: left;
@@ -375,35 +404,70 @@ html {
     width: 990px;
     margin: 0 auto;
 }
-.footer_top ul {
-    width: 100%;
+.footer_menu{
+    width: 680px;
+    margin: 0 auto;
+    margin-top:5px;
+}
+.footer_menu ul {
+    width: 625px;
+    margin: 0 auto;
     display: block;
 }
 
-.footer_top ul li {
+.footer_menu ul li {
     float: left;
-    padding-right: 62px;
+    padding-right: 48px;
 }
 
-.footer_top ul li:first-child {
+.footer_menu ul li:first-child {
     margin: 0px;
     padding-right: 0px;
-    padding-left: 50px;
+    padding-right: 50px;
 }
-
-.footer_top ul li:last-child {
+.footer_menu ul li:last-child {
     margin: 0px;
     padding-left: 0px;
     padding-right: 0px;
-
 }
-
-.footer_top ul li a {
-    font-family: UTM_Avo;
-    font-size: 12px;
+.footer_menu ul li a {
+    font-family: utm_avobold;
+    font-size: 12pt;
     font-weight: bold;
-    line-height: 46px;
+    line-height: 50px;
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+}
+.line{
+    background: url("../images/line.png");
+    height: 2px;
+    width: 668px;
+    float: left;
+}
+.div_pay{
+    margin-top: 20px;
+    width:100%;
+    float: left;
+}
+.div_pay_left{
+    width: 60%;
+    float: left;
+}
+.div_pay_right{
+    width: 40%;
+    float: left;
+}
+.div_pay_images img{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title_pay{
+    color: #fff;
+    font-size: 15px;
+    font-family: utm_avoregular;
+    width: 100%;
+    text-align: center;
 }

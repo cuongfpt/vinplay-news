@@ -178,13 +178,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="footer">
         <div class="footer_content">
             <div class="footer_top">
-                <ul>
-                    <li><a href="#">Tin tức</a></li>
-                    <li><a href="#">chính sách</a></li>
-                    <li><a href="#">thưởng vip</a></li>
-                    <li><a href="#">vinh danh</a></li>
-                    <li><a href="#">hố trợ</a></li>
-                </ul>
+                <div class="footer_menu">
+                    <ul>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">chính sách</a></li>
+                        <li><a href="#">thưởng vip</a></li>
+                        <li><a href="#">vinh danh</a></li>
+                        <li><a href="#">hố trợ</a></li>
+                    </ul>
+                    <div class="line"></div>
+                    <div class="div_pay">
+                        <div class="div_pay_left">
+                            <div class="title_pay">Các phương thức thanh toán</div>
+                            <div class="div_pay_images">
+                                <img src="public/site/images/payment.png">
+                            </div>
+                        </div>
+                        <div class="div_pay_right">
+                            <div class="title_pay">Kết nối với chúng tôi</div>
+                            <div class="div_pay_images">
+                                <img src="public/site/images/face.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
